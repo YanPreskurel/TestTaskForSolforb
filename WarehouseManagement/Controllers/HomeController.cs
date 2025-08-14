@@ -1,6 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using WarehouseManagement.Models;
+using WarehouseManagement.ViewModels;
 
 namespace WarehouseManagement.Controllers
 {

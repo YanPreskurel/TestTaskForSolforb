@@ -1,4 +1,4 @@
-﻿namespace WarehouseManagement.Models
+﻿namespace WarehouseManagement.Models.Entities
 {
     public class Balance
     {
@@ -10,6 +10,6 @@
         public int UnitId { get; set; }
         public Unit? Unit { get; set; }
 
-        public decimal Quantity { get; set; } // Количество на складе
+        public decimal Quantity { get; set; }
     }
 }

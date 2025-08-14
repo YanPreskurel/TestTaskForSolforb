@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WarehouseManagement.Models;
+using WarehouseManagement.Models.Entities;
 
 namespace WarehouseManagement.Data
 {
