@@ -1,7 +1,6 @@
-﻿@using WarehouseManagement.Models.Entities
-@model Resource
+﻿@model WarehouseManagement.Models.DTOs.UnitCreateDto
 
-<h2>Добавить ресурс</h2>
+<h2>Добавить единиццу измерения</h2>
 
 <form asp-action="Create" method="post">
     <div class="form-group">
@@ -13,9 +12,3 @@
     <button type="submit" class="btn btn-success">Сохранить</button>
     <a class="btn btn-secondary" asp-action="Index">Отмена</a>
 </form>
-
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}

@@ -1,0 +1,31 @@
+﻿@model IEnumerable<WarehouseManagement.Models.DTOs.UnitReadDto>
+
+<h2>Единицы измерения</h2>
+
+<div class="mb-3">
+    <a class="btn btn-primary" asp-action="Create">Добавить единицу измерения</a>
+    @if (ViewBag.ShowArchiveButton != null && (bool)ViewBag.ShowArchiveButton)
+    {
+        <a class="btn btn-secondary" asp-action="Index">Отмена</a>
+    }
+    else
+    {
+        <a class="btn btn-warning" asp-action="Archive">Архив</a>
+    }
+</div>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Наименование</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>

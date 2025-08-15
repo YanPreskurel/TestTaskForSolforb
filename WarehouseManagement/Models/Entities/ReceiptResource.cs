@@ -12,6 +12,8 @@ namespace WarehouseManagement.Models.Entities
 
         [Required]
         public int ResourceId { get; set; }
+
+        [Required]
         public Resource? Resource { get; set; }
 
         [Required]

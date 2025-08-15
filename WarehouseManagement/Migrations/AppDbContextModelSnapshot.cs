@@ -22,32 +22,6 @@ namespace WarehouseManagement.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("WarehouseManagement.Models.Entities.Balance", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<decimal>("Quantity")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<int>("ResourceId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("UnitId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ResourceId");
-
-                    b.HasIndex("UnitId");
-
-                    b.ToTable("Balances");
-                });
-
             modelBuilder.Entity("WarehouseManagement.Models.Entities.ReceiptDocument", b =>
                 {
                     b.Property<int>("Id")
@@ -67,6 +41,20 @@ namespace WarehouseManagement.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("ReceiptDocuments");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Date = new DateTime(2025, 8, 10, 0, 0, 0, 0, DateTimeKind.Local),
+                            Number = "R001"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Date = new DateTime(2025, 8, 13, 0, 0, 0, 0, DateTimeKind.Local),
+                            Number = "R002"
+                        });
                 });
 
             modelBuilder.Entity("WarehouseManagement.Models.Entities.ReceiptResource", b =>
@@ -98,6 +86,32 @@ namespace WarehouseManagement.Migrations
                     b.HasIndex("UnitId");
 
                     b.ToTable("ReceiptResources");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Quantity = 100m,
+                            ReceiptDocumentId = 1,
+                            ResourceId = 1,
+                            UnitId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Quantity = 50m,
+                            ReceiptDocumentId = 1,
+                            ResourceId = 2,
+                            UnitId = 2
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Quantity = 200m,
+                            ReceiptDocumentId = 2,
+                            ResourceId = 3,
+                            UnitId = 3
+                        });
                 });
 
             modelBuilder.Entity("WarehouseManagement.Models.Entities.Resource", b =>
@@ -122,6 +136,26 @@ namespace WarehouseManagement.Migrations
                         .IsUnique();
 
                     b.ToTable("Resources");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            IsActive = true,
+                            Name = "Сахар"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            IsActive = true,
+                            Name = "Молоко"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            IsActive = true,
+                            Name = "Яйца"
+                        });
                 });
 
             modelBuilder.Entity("WarehouseManagement.Models.Entities.Unit", b =>
@@ -146,25 +180,26 @@ namespace WarehouseManagement.Migrations
                         .IsUnique();
 
                     b.ToTable("Units");
-                });
 
-            modelBuilder.Entity("WarehouseManagement.Models.Entities.Balance", b =>
-                {
-                    b.HasOne("WarehouseManagement.Models.Entities.Resource", "Resource")
-                        .WithMany()
-                        .HasForeignKey("ResourceId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("WarehouseManagement.Models.Entities.Unit", "Unit")
-                        .WithMany()
-                        .HasForeignKey("UnitId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Resource");
-
-                    b.Navigation("Unit");
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            IsActive = true,
+                            Name = "Килограмм"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            IsActive = true,
+                            Name = "Литр"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            IsActive = true,
+                            Name = "Штука"
+                        });
                 });
 
             modelBuilder.Entity("WarehouseManagement.Models.Entities.ReceiptResource", b =>

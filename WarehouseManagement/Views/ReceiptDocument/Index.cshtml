@@ -1,0 +1,88 @@
+﻿@model IEnumerable<WarehouseManagement.Models.DTOs.ReceiptDocumentReadDto>
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<h2>Поступления</h2>
+
+<a class="btn btn-primary" href="@Url.Action("Create")">Добавить поступление</a>
+
+<form id="filterForm" method="post" asp-action="Filter">
+    <div class="row mb-3">
+        <div class="col">
+            <input type="text" name="number" class="form-control" placeholder="Номер документа" value="@(ViewData["number"] ?? "")" />
+        </div>
+        <div class="col">
+            <input type="date" name="from" class="form-control" value="@(ViewData["from"] ?? "")" />
+        </div>
+        <div class="col">
+            <input type="date" name="to" class="form-control" value="@(ViewData["to"] ?? "")" />
+        </div>
+    </div>
+
+
+    <div class="row mb-3">
+        <div class="col">
+            <label>Ресурсы</label>
+            <select name="resourceIds" multiple class="form-control">
+                <div class="col">
+                    <label>Ресурсы</label>
+                    <select name="resourceIds" asp-items="ViewBag.Resources" multiple class="form-control"></select>
+                </div>
+            </select>
+        </div>
+        <div class="col">
+            <label>Единицы измерения</label>
+            <select name="unitIds" multiple class="form-control">
+                <div class="col">
+                    <label>Единицы измерения</label>
+                    <select name="unitIds" asp-items="ViewBag.Units" multiple class="form-control"></select>
+                </div>
+            </select>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Фильтровать</button>
+</form>
+
+
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>Номер документа</th>
+            <th>Дата</th>
+            <th>Ресурс</th>
+            <th>Единица измерения</th>
+            <th>Количество</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var doc in Model)
+        {
+            if (doc.Resources != null && doc.Resources.Any())
+            {
+                foreach (var rr in doc.Resources)
+                {
+                    <tr>
+                        <td>@doc.Number</td>
+                        <td>@doc.Date.ToString("yyyy-MM-dd")</td>
+                        <td>@rr.ResourceName</td>
+                        <td>@rr.UnitName</td>
+                        <td>@rr.Quantity</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td>@doc.Number</td>
+                    <td>@doc.Date.ToString("yyyy-MM-dd")</td>
+                    <td colspan="3">Нет ресурсов</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+
+

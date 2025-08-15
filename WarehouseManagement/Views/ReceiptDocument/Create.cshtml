@@ -1,0 +1,91 @@
+﻿@model WarehouseManagement.Models.DTOs.ReceiptDocumentCreateDto
+
+<h2>Добавить поступление</h2>
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label>Номер документа</label>
+        <input asp-for="Number" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Дата</label>
+        <input asp-for="Date" type="date" class="form-control" />
+    </div>
+
+    <h4>Ресурсы</h4>
+    <table class="table" id="itemsTable">
+        <thead>
+            <tr>
+                <th>Ресурс</th>
+                <th>Единица измерения</th>
+                <th>Количество</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Resources.Count; i++)
+            {
+                <tr>
+                    <td>
+                        <select asp-for="@Model.Resources[i].ResourceId" class="form-control" asp-items="ViewBag.Resources"></select>
+                    </td>
+                    <td>
+                        <select asp-for="@Model.Resources[i].UnitId" class="form-control" asp-items="ViewBag.Units"></select>
+                    </td>
+                    <td>
+                        <input asp-for="@Model.Resources[i].Quantity" class="form-control" />
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-danger" onclick="removeRow(this)">X</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <button type="button" class="btn btn-secondary" onclick="addRow()">Добавить ресурс</button>
+    <br /><br />
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+</form>
+
+@section Scripts {
+    <script>
+        function addRow() {
+            var table = document.getElementById("itemsTable").getElementsByTagName('tbody')[0];
+            var rowCount = table.rows.length;
+            var newRow = table.insertRow();
+
+            newRow.innerHTML = `
+                <td>
+                    <select name="Resources[${rowCount}].ResourceId" class="form-control">
+                        @foreach (var r in ViewBag.Resources as SelectList)
+                        {
+                                <option value="@r.Value">@r.Text</option>
+                        }
+                    </select>
+                </td>
+                <td>
+                    <select name="Resources[${rowCount}].UnitId" class="form-control">
+                        @foreach (var u in ViewBag.Units as SelectList)
+                        {
+                                <option value="@u.Value">@u.Text</option>
+                        }
+                    </select>
+                </td>
+                <td>
+                    <input name="Resources[${rowCount}].Quantity" class="form-control" type="number" step="0.01" />
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger" onclick="removeRow(this)">X</button>
+                </td>
+            `;
+        }
+
+        function removeRow(btn) {
+            var row = btn.closest("tr");
+            row.remove();
+        }
+    </script>
+}
+
