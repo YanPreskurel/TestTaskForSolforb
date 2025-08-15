@@ -17,12 +17,7 @@ namespace WarehouseManagement.Services.Interfaces
         Task<IEnumerable<ReceiptDocument>> GetByResourcesAsync(List<int> resourceIds);
         Task<IEnumerable<ReceiptDocument>> GetByUnitsAsync(List<int> unitIds);
 
-        Task<IEnumerable<ReceiptDocument>> GetFilteredAsync(
-    string number,
-    List<int>? resourceIds,
-    List<int>? unitIds,
-    DateTime? from,
-    DateTime? to);
-
+        Task<IEnumerable<ReceiptDocument>> GetAllWithIncludesAsync();
+        Task<IEnumerable<ReceiptDocument>> GetFilteredAsync(string number, List<int>? resourceIds, List<int>? unitIds,DateTime? from, DateTime? to);
     }
 }

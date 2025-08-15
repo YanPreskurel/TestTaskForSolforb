@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.Design;
 using WarehouseManagement.Models.DTOs;
 using WarehouseManagement.Models.Entities;
@@ -27,9 +28,15 @@ namespace WarehouseManagement.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var documents = await _receiptService.GetAllAsync();
-            var dtoList = _mapper.Map<IEnumerable<ReceiptDocumentReadDto>>(documents);
-            return View(dtoList);
+            var documents = await _receiptService.GetAllWithIncludesAsync();
+
+            ViewBag.Resources = new MultiSelectList(await _resourceService.GetAllResourcesAsync(), "Id", "Name");
+            ViewBag.Units = new MultiSelectList(await _unitService.GetAllUnitsAsync(), "Id", "Name");
+
+            ViewBag.From = DateTime.Today.AddDays(-14).ToString("yyyy-MM-dd");
+            ViewBag.To = DateTime.Today.ToString("yyyy-MM-dd");
+
+            return View(_mapper.Map<IEnumerable<ReceiptDocumentReadDto>>(documents));
         }
 
         public IActionResult Create()
@@ -53,11 +60,18 @@ namespace WarehouseManagement.Controllers
                 return View(dto);
             }
 
+            var existingEntity = await _receiptService.GetAllQuery()
+                                                      .FirstOrDefaultAsync(r => r.Number == dto.Number);
+
+            if (existingEntity != null)  
+                return RedirectToAction(nameof(Index));
+
             var entity = _mapper.Map<ReceiptDocument>(dto);
             await _receiptService.AddAsync(entity);
 
             return RedirectToAction(nameof(Index));
         }
+
 
         [HttpPost]
         public async Task<IActionResult> Filter(string number, DateTime? from, DateTime? to, List<int>? resourceIds, List<int>? unitIds)
@@ -65,9 +79,11 @@ namespace WarehouseManagement.Controllers
             var docs = await _receiptService.GetFilteredAsync(number, resourceIds, unitIds, from, to);
             var dtoList = _mapper.Map<IEnumerable<ReceiptDocumentReadDto>>(docs);
 
-            // Здесь нужно использовать SelectList с выбранными элементами
-            ViewBag.Resources = new SelectList(await _resourceService.GetAllResourcesAsync(), "Id", "Name", resourceIds);
-            ViewBag.Units = new SelectList(await _unitService.GetAllUnitsAsync(), "Id", "Name", unitIds);
+            ViewBag.Resources = new MultiSelectList(await _resourceService.GetAllResourcesAsync(), "Id", "Name", resourceIds);
+            ViewBag.Units = new MultiSelectList(await _unitService.GetAllUnitsAsync(), "Id", "Name", unitIds);
+            ViewBag.Number = number;
+            ViewBag.From = from?.ToString("yyyy-MM-dd") ?? DateTime.Today.AddDays(-14).ToString("yyyy-MM-dd");
+            ViewBag.To = to?.ToString("yyyy-MM-dd") ?? DateTime.Today.ToString("yyyy-MM-dd");
 
             return View("Index", dtoList);
         }

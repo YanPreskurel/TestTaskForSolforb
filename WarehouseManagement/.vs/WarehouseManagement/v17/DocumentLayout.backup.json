@@ -3,8 +3,52 @@
   "WorkspaceRootPath": "D:\\TestTaskForSolforb\\WarehouseManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\controllers\\receiptdocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:controllers\\receiptdocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\views\\unit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:views\\unit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\views\\unit\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:views\\unit\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\views\\unit\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:views\\unit\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\views\\resource\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:views\\resource\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\views\\resource\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:views\\resource\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\views\\resource\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:views\\resource\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\views\\receiptdocument\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -15,68 +59,140 @@
       "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:views\\receiptdocument\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\services\\resourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:services\\resourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\controllers\\resourcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:controllers\\resourcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\services\\receiptdocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:services\\receiptdocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\services\\interfaces\\ireceiptdocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:services\\interfaces\\ireceiptdocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\models\\dtos\\receiptresourcecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:models\\dtos\\receiptresourcecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\models\\dtos\\receiptdocumentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:models\\dtos\\receiptdocumentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\views\\unit\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:views\\unit\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\services\\interfaces\\iresourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:services\\interfaces\\iresourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\views\\resource\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:views\\resource\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\views\\resource\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:views\\resource\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\views\\unit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:views\\unit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\models\\entities\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:models\\entities\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\services\\unitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:services\\unitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\services\\resourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:services\\resourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\services\\receiptdocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:services\\receiptdocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\services\\interfaces\\iunitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:services\\interfaces\\iunitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\services\\interfaces\\iresourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:services\\interfaces\\iresourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\services\\interfaces\\ireceiptdocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:services\\interfaces\\ireceiptdocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\models\\entities\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:models\\entities\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\models\\entities\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:models\\entities\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\models\\entities\\receiptresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:models\\entities\\receiptresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\models\\entities\\receiptdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:models\\entities\\receiptdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\models\\dtos\\unitupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:models\\dtos\\unitupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\models\\dtos\\unitreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:models\\dtos\\unitreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\models\\dtos\\unitcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:models\\dtos\\unitcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\models\\dtos\\resourceupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:models\\dtos\\resourceupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\models\\dtos\\resourcereaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:models\\dtos\\resourcereaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\models\\dtos\\resourcecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:models\\dtos\\resourcecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\models\\dtos\\receiptresourceupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:models\\dtos\\receiptresourceupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\models\\dtos\\receiptresourcereaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:models\\dtos\\receiptresourcereaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\models\\dtos\\receiptresourcecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:models\\dtos\\receiptresourcecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\models\\dtos\\receiptdocumentupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:models\\dtos\\receiptdocumentupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\models\\dtos\\receiptdocumentreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:models\\dtos\\receiptdocumentreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\models\\dtos\\receiptdocumentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:models\\dtos\\receiptdocumentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\interfaces\\iunitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:interfaces\\iunitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\interfaces\\iresourcerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:interfaces\\iresourcerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\interfaces\\ireceiptdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:interfaces\\ireceiptdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\controllers\\unitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:controllers\\unitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\controllers\\resourcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:controllers\\resourcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\controllers\\receiptdocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:controllers\\receiptdocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\repositories\\receiptdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:repositories\\receiptdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|d:\\testtaskforsolforb\\warehousemanagement\\repositories\\resourcerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA12B3B-9C85-46FA-B00B-74B3A3DED1B6}|WarehouseManagement.csproj|solutionrelative:repositories\\resourcerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,230 +202,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 220,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ResourceService.cs",
-              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Services\\ResourceService.cs",
-              "RelativeDocumentMoniker": "Services\\ResourceService.cs",
-              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Services\\ResourceService.cs",
-              "RelativeToolTip": "Services\\ResourceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T01:06:47.482Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReceiptDocumentController.cs",
-              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Controllers\\ReceiptDocumentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ReceiptDocumentController.cs",
-              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Controllers\\ReceiptDocumentController.cs*",
-              "RelativeToolTip": "Controllers\\ReceiptDocumentController.cs*",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAwEgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T01:19:00.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\ReceiptDocument\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\ReceiptDocument\\Index.cshtml",
-              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\ReceiptDocument\\Index.cshtml",
-              "RelativeToolTip": "Views\\ReceiptDocument\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-15T01:18:55.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-15T01:42:48.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ResourceController.cs",
-              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Controllers\\ResourceController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ResourceController.cs",
-              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Controllers\\ResourceController.cs",
-              "RelativeToolTip": "Controllers\\ResourceController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAYwEYAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T01:09:05.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Mapping\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Mapping\\MappingProfile.cs",
-              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Mapping\\MappingProfile.cs",
-              "RelativeToolTip": "Mapping\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T01:30:30.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\ReceiptDocument\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\ReceiptDocument\\Create.cshtml",
-              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\ReceiptDocument\\Create.cshtml",
-              "RelativeToolTip": "Views\\ReceiptDocument\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-15T01:18:51.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ReceiptDocumentService.cs",
-              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Services\\ReceiptDocumentService.cs",
-              "RelativeDocumentMoniker": "Services\\ReceiptDocumentService.cs",
-              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Services\\ReceiptDocumentService.cs",
-              "RelativeToolTip": "Services\\ReceiptDocumentService.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAgwHEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T01:28:22.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IReceiptDocumentService.cs",
-              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Services\\Interfaces\\IReceiptDocumentService.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IReceiptDocumentService.cs",
-              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Services\\Interfaces\\IReceiptDocumentService.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IReceiptDocumentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T01:27:41.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ReceiptResourceCreateDto.cs",
-              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ReceiptResourceCreateDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\ReceiptResourceCreateDto.cs",
-              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ReceiptResourceCreateDto.cs",
-              "RelativeToolTip": "Models\\DTOs\\ReceiptResourceCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T01:46:08.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ReceiptDocumentCreateDto.cs",
-              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ReceiptDocumentCreateDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\ReceiptDocumentCreateDto.cs",
-              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ReceiptDocumentCreateDto.cs",
-              "RelativeToolTip": "Models\\DTOs\\ReceiptDocumentCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T01:29:02.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Unit\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Unit\\Create.cshtml",
-              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Unit\\Create.cshtml",
-              "RelativeToolTip": "Views\\Unit\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-15T00:58:33.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Resource\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Resource\\Create.cshtml",
-              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Resource\\Create.cshtml",
-              "RelativeToolTip": "Views\\Resource\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-15T01:13:19.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IResourceService.cs",
-              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Services\\Interfaces\\IResourceService.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IResourceService.cs",
-              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Services\\Interfaces\\IResourceService.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IResourceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T01:08:44.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Resource\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Resource\\Index.cshtml",
-              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Resource\\Index.cshtml",
-              "RelativeToolTip": "Views\\Resource\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-15T01:13:25.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Unit\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Unit\\Index.cshtml",
-              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Unit\\Index.cshtml",
-              "RelativeToolTip": "Views\\Unit\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-15T00:58:26.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Resource.cs",
-              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\Entities\\Resource.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Resource.cs",
-              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\Entities\\Resource.cs",
-              "RelativeToolTip": "Models\\Entities\\Resource.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T01:09:02.922Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:10:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
@@ -324,15 +218,210 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UnitService.cs",
-              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Services\\UnitService.cs",
-              "RelativeDocumentMoniker": "Services\\UnitService.cs",
-              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Services\\UnitService.cs",
-              "RelativeToolTip": "Services\\UnitService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Unit\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Unit\\Create.cshtml",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Unit\\Create.cshtml",
+              "RelativeToolTip": "Views\\Unit\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T00:58:33.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Unit\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Unit\\Edit.cshtml",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Unit\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Unit\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T13:47:00.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Unit\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Unit\\Index.cshtml",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Unit\\Index.cshtml",
+              "RelativeToolTip": "Views\\Unit\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T00:58:26.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\ViewModels\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ErrorViewModel.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\ViewModels\\ErrorViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T01:02:37.876Z",
+              "WhenOpened": "2025-08-15T16:04:04.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T15:42:16.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T13:38:58.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T16:05:09.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T01:42:48.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Resource\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Resource\\Edit.cshtml",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Resource\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Resource\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T13:48:49.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Resource\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Resource\\Create.cshtml",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Resource\\Create.cshtml",
+              "RelativeToolTip": "Views\\Resource\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T01:13:19.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\ReceiptDocument\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ReceiptDocument\\Index.cshtml",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\ReceiptDocument\\Index.cshtml",
+              "RelativeToolTip": "Views\\ReceiptDocument\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T01:18:55.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\ReceiptDocument\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\ReceiptDocument\\Create.cshtml",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\ReceiptDocument\\Create.cshtml",
+              "RelativeToolTip": "Views\\ReceiptDocument\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T01:18:51.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T16:04:33.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T16:04:35.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ReceiptDocumentService.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Services\\ReceiptDocumentService.cs",
+              "RelativeDocumentMoniker": "Services\\ReceiptDocumentService.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Services\\ReceiptDocumentService.cs",
+              "RelativeToolTip": "Services\\ReceiptDocumentService.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAiwHIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T01:28:22.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Resource\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Resource\\Index.cshtml",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Views\\Resource\\Index.cshtml",
+              "RelativeToolTip": "Views\\Resource\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T01:13:25.806Z",
               "EditorCaption": ""
             },
             {
@@ -343,9 +432,412 @@
               "RelativeDocumentMoniker": "Services\\Interfaces\\IUnitService.cs",
               "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Services\\Interfaces\\IUnitService.cs",
               "RelativeToolTip": "Services\\Interfaces\\IUnitService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-15T01:04:18.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IResourceService.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Services\\Interfaces\\IResourceService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IResourceService.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Services\\Interfaces\\IResourceService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IResourceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T01:08:44.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IReceiptDocumentService.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Services\\Interfaces\\IReceiptDocumentService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IReceiptDocumentService.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Services\\Interfaces\\IReceiptDocumentService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IReceiptDocumentService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T01:27:41.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Unit.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\Entities\\Unit.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Unit.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\Entities\\Unit.cs",
+              "RelativeToolTip": "Models\\Entities\\Unit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T15:55:17.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Resource.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\Entities\\Resource.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Resource.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\Entities\\Resource.cs",
+              "RelativeToolTip": "Models\\Entities\\Resource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T01:09:02.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ResourceService.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Services\\ResourceService.cs",
+              "RelativeDocumentMoniker": "Services\\ResourceService.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Services\\ResourceService.cs",
+              "RelativeToolTip": "Services\\ResourceService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwDYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T15:29:08.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UnitService.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Services\\UnitService.cs",
+              "RelativeDocumentMoniker": "Services\\UnitService.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Services\\UnitService.cs",
+              "RelativeToolTip": "Services\\UnitService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwDQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T01:02:37.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ReceiptResource.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\Entities\\ReceiptResource.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\ReceiptResource.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\Entities\\ReceiptResource.cs",
+              "RelativeToolTip": "Models\\Entities\\ReceiptResource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T15:08:45.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ReceiptDocument.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\Entities\\ReceiptDocument.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\ReceiptDocument.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\Entities\\ReceiptDocument.cs",
+              "RelativeToolTip": "Models\\Entities\\ReceiptDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T15:08:42.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UnitUpdateDto.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\UnitUpdateDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\UnitUpdateDto.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\UnitUpdateDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\UnitUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T16:02:48.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UnitReadDto.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\UnitReadDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\UnitReadDto.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\UnitReadDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\UnitReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T13:44:52.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UnitCreateDto.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\UnitCreateDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\UnitCreateDto.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\UnitCreateDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\UnitCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T16:02:47.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ResourceReadDto.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ResourceReadDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ResourceReadDto.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ResourceReadDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\ResourceReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T15:37:09.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ResourceCreateDto.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ResourceCreateDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ResourceCreateDto.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ResourceCreateDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\ResourceCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T16:02:44.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ReceiptResourceUpdateDto.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ReceiptResourceUpdateDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ReceiptResourceUpdateDto.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ReceiptResourceUpdateDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\ReceiptResourceUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T16:02:43.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ReceiptDocumentUpdateDto.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ReceiptDocumentUpdateDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ReceiptDocumentUpdateDto.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ReceiptDocumentUpdateDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\ReceiptDocumentUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T15:36:39.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ReceiptDocumentReadDto.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ReceiptDocumentReadDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ReceiptDocumentReadDto.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ReceiptDocumentReadDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\ReceiptDocumentReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T15:36:34.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ResourceUpdateDto.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ResourceUpdateDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ResourceUpdateDto.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ResourceUpdateDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\ResourceUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T15:30:35.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ReceiptDocumentCreateDto.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ReceiptDocumentCreateDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ReceiptDocumentCreateDto.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ReceiptDocumentCreateDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\ReceiptDocumentCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T01:29:02.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ReceiptResourceCreateDto.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ReceiptResourceCreateDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ReceiptResourceCreateDto.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ReceiptResourceCreateDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\ReceiptResourceCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T01:46:08.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ReceiptResourceReadDto.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ReceiptResourceReadDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ReceiptResourceReadDto.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Models\\DTOs\\ReceiptResourceReadDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\ReceiptResourceReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T12:35:23.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Mapping\\MappingProfile.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T01:30:30.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IUnitRepository.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Interfaces\\IUnitRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IUnitRepository.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Interfaces\\IUnitRepository.cs",
+              "RelativeToolTip": "Interfaces\\IUnitRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T15:54:20.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IResourceRepository.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Interfaces\\IResourceRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IResourceRepository.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Interfaces\\IResourceRepository.cs",
+              "RelativeToolTip": "Interfaces\\IResourceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T15:54:16.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IReceiptDocumentRepository.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Interfaces\\IReceiptDocumentRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IReceiptDocumentRepository.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Interfaces\\IReceiptDocumentRepository.cs",
+              "RelativeToolTip": "Interfaces\\IReceiptDocumentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T15:54:01.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Interfaces\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IBaseRepository.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Interfaces\\IBaseRepository.cs",
+              "RelativeToolTip": "Interfaces\\IBaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T15:54:05.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UnitController.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Controllers\\UnitController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UnitController.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Controllers\\UnitController.cs",
+              "RelativeToolTip": "Controllers\\UnitController.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAADwv5QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T13:42:06.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ResourceController.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Controllers\\ResourceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ResourceController.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Controllers\\ResourceController.cs",
+              "RelativeToolTip": "Controllers\\ResourceController.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAADwv5IAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T01:09:05.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ReceiptDocumentController.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Controllers\\ReceiptDocumentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReceiptDocumentController.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Controllers\\ReceiptDocumentController.cs",
+              "RelativeToolTip": "Controllers\\ReceiptDocumentController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T01:19:00.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T14:57:50.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ReceiptDocumentRepository.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Repositories\\ReceiptDocumentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ReceiptDocumentRepository.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Repositories\\ReceiptDocumentRepository.cs",
+              "RelativeToolTip": "Repositories\\ReceiptDocumentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T15:53:51.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ResourceRepository.cs",
+              "DocumentMoniker": "D:\\TestTaskForSolforb\\WarehouseManagement\\Repositories\\ResourceRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ResourceRepository.cs",
+              "ToolTip": "D:\\TestTaskForSolforb\\WarehouseManagement\\Repositories\\ResourceRepository.cs",
+              "RelativeToolTip": "Repositories\\ResourceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T15:22:43.144Z",
               "EditorCaption": ""
             }
           ]

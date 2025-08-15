@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using WarehouseManagement.Models.Entities;
 
 namespace WarehouseManagement.Data
@@ -32,8 +33,8 @@ namespace WarehouseManagement.Data
 
             // Тестовые документы поступления
             modelBuilder.Entity<ReceiptDocument>().HasData(
-                new ReceiptDocument { Id = 1, Number = "R001", Date = DateTime.Today.AddDays(-5) },
-                new ReceiptDocument { Id = 2, Number = "R002", Date = DateTime.Today.AddDays(-2) }
+                new ReceiptDocument { Id = 1, Number = "001", Date = DateTime.Today.AddDays(-5) },
+                new ReceiptDocument { Id = 2, Number = "002", Date = DateTime.Today.AddDays(-2) }
             );
 
             // Тестовые ресурсы в документах поступления
@@ -52,5 +53,12 @@ namespace WarehouseManagement.Data
                 .HasIndex(u => u.Name)
                 .IsUnique();
         }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.ConfigureWarnings(warnings =>
+                warnings.Ignore(RelationalEventId.PendingModelChangesWarning));
+        }
+
     }
 }

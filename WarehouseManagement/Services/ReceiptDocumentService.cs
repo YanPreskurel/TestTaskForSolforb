@@ -74,14 +74,8 @@ namespace WarehouseManagement.Services
             );
         }
 
-        public async Task<IEnumerable<ReceiptDocument>> GetFilteredAsync(
-    string number,
-    List<int>? resourceIds,
-    List<int>? unitIds,
-    DateTime? from,
-    DateTime? to)
+        public async Task<IEnumerable<ReceiptDocument>> GetFilteredAsync(string number, List<int>? resourceIds, List<int>? unitIds, DateTime? from, DateTime? to)
         {
-            // IQueryable — без IIncludableQueryable
             IQueryable<ReceiptDocument> query = _repository.GetAllQuery()
                 .Include(d => d.ReceiptResources)
                     .ThenInclude(rr => rr.Resource)
@@ -97,13 +91,27 @@ namespace WarehouseManagement.Services
             if (to.HasValue)
                 query = query.Where(d => d.Date <= to.Value);
 
-            if (resourceIds != null && resourceIds.Any())
-                query = query.Where(d => d.ReceiptResources.Any(rr => rr.ResourceId != null && resourceIds.Contains(rr.ResourceId)));
-
-            if (unitIds != null && unitIds.Any())
-                query = query.Where(d => d.ReceiptResources.Any(rr => rr.UnitId != null && unitIds.Contains(rr.UnitId)));
+            if ((resourceIds != null && resourceIds.Any()) || (unitIds != null && unitIds.Any()))
+            {
+                query = query.Where(d =>
+                    d.ReceiptResources.Any(rr =>
+                        (resourceIds == null || resourceIds.Count == 0 || resourceIds.Contains(rr.ResourceId)) &&
+                        (unitIds == null || unitIds.Count == 0 || unitIds.Contains(rr.UnitId))
+                    )
+                );
+            }
 
             return await query.ToListAsync();
+        }
+
+        public async Task<IEnumerable<ReceiptDocument>> GetAllWithIncludesAsync()
+        {
+            return await _repository.GetAllQuery()
+                .Include(d => d.ReceiptResources)
+                    .ThenInclude(rr => rr.Resource)
+                .Include(d => d.ReceiptResources)
+                    .ThenInclude(rr => rr.Unit)
+                .ToListAsync();
         }
     }
 }

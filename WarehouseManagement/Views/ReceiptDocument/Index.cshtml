@@ -4,47 +4,28 @@
 
 <h2>Поступления</h2>
 
-<a class="btn btn-primary" href="@Url.Action("Create")">Добавить поступление</a>
+<a class="btn btn-primary mb-3" href="@Url.Action("Create")">Добавить поступление</a>
 
-<form id="filterForm" method="post" asp-action="Filter">
-    <div class="row mb-3">
-        <div class="col">
-            <input type="text" name="number" class="form-control" placeholder="Номер документа" value="@(ViewData["number"] ?? "")" />
-        </div>
-        <div class="col">
-            <input type="date" name="from" class="form-control" value="@(ViewData["from"] ?? "")" />
-        </div>
-        <div class="col">
-            <input type="date" name="to" class="form-control" value="@(ViewData["to"] ?? "")" />
-        </div>
+<form id="filterForm" method="post" asp-action="Filter" class="row g-2 align-items-end mb-3">
+    <div class="col-auto">
+        <input type="text" name="number" class="form-control" placeholder="Номер документа" value="@ViewBag.Number" />
     </div>
-
-
-    <div class="row mb-3">
-        <div class="col">
-            <label>Ресурсы</label>
-            <select name="resourceIds" multiple class="form-control">
-                <div class="col">
-                    <label>Ресурсы</label>
-                    <select name="resourceIds" asp-items="ViewBag.Resources" multiple class="form-control"></select>
-                </div>
-            </select>
-        </div>
-        <div class="col">
-            <label>Единицы измерения</label>
-            <select name="unitIds" multiple class="form-control">
-                <div class="col">
-                    <label>Единицы измерения</label>
-                    <select name="unitIds" asp-items="ViewBag.Units" multiple class="form-control"></select>
-                </div>
-            </select>
-        </div>
+    <div class="col-auto">
+        <input type="date" name="from" class="form-control" value="@ViewBag.From" />
     </div>
-
-    <button type="submit" class="btn btn-primary">Фильтровать</button>
+    <div class="col-auto">
+        <input type="date" name="to" class="form-control" value="@ViewBag.To" />
+    </div>
+    <div class="col-auto">
+        <select name="resourceIds" asp-items="ViewBag.Resources" multiple class="form-select"></select>
+    </div>
+    <div class="col-auto">
+        <select name="unitIds" asp-items="ViewBag.Units" multiple class="form-select"></select>
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-primary">Фильтровать</button>
+    </div>
 </form>
-
-
 
 <table class="table table-bordered mt-3">
     <thead>
@@ -83,6 +64,3 @@
         }
     </tbody>
 </table>
-
-
-

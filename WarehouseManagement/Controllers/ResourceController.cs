@@ -11,11 +11,16 @@ namespace WarehouseManagement.Controllers
     public class ResourceController : Controller
     {
         private readonly IResourceService _resourceService;
+        private readonly IReceiptDocumentService _receiptDocumentService;
         private readonly IMapper _mapper;
 
-        public ResourceController(IResourceService resourceService, IMapper mapper)
+        public ResourceController(
+            IResourceService resourceService,
+            IReceiptDocumentService receiptDocumentService,
+            IMapper mapper)
         {
             _resourceService = resourceService;
+            _receiptDocumentService = receiptDocumentService;
             _mapper = mapper;
         }
 
@@ -34,7 +39,6 @@ namespace WarehouseManagement.Controllers
                 ViewBag.ShowArchiveButton = false;
             }
 
-            // Маппим на DTO
             var resourcesDto = _mapper.Map<IEnumerable<ResourceReadDto>>(resources);
 
             return View(resourcesDto);
@@ -78,5 +82,74 @@ namespace WarehouseManagement.Controllers
             var resourcesDto = _mapper.Map<IEnumerable<ResourceReadDto>>(archived);
             return View("Index", resourcesDto);
         }
+
+        public async Task<IActionResult> Edit(int id)
+        {
+            var resource = await _resourceService.GetByIdAsync(id);
+            if (resource == null)
+                return NotFound();
+
+            var dto = new ResourceUpdateDto
+            {
+                Id = resource.Id,
+                Name = resource.Name,
+                IsActive = resource.IsActive
+            };
+
+
+            return View(dto);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(ResourceUpdateDto dto)
+        {
+            if (!ModelState.IsValid)
+                return View(dto);
+
+            var existing = await _resourceService.GetByIdAsync(dto.Id);
+            if (existing == null)
+                return NotFound();
+
+            existing.Name = dto.Name;
+            await _resourceService.UpdateAsync(existing);
+
+            TempData["Success"] = "Ресурс сохранен.";
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Archive(int id)
+        {
+            var resource = await _resourceService.GetByIdAsync(id);
+            if (resource == null) return NotFound();
+
+            resource.IsActive = false;
+            await _resourceService.UpdateAsync(resource);
+
+            TempData["Success"] = "Ресурс отправлен в архив.";
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var resource = await _resourceService.GetByIdAsync(id);
+            if (resource == null) return NotFound();
+
+            var usedDocuments = await _receiptDocumentService.GetByResourcesAsync(new List<int> { id });
+
+            if (usedDocuments.Any())
+            {
+                TempData["Error"] = "Этот ресурс используется в документах и не может быть удален. Можно только архивировать.";
+                return RedirectToAction("Edit", new { id });
+            }
+
+            await _resourceService.DeleteAsync(id);
+            TempData["Success"] = "Ресурс удален.";
+
+            return RedirectToAction("Index");         
+        }
+
     }
 }

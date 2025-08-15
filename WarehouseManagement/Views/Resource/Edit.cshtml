@@ -1,0 +1,30 @@
+﻿@model WarehouseManagement.Models.DTOs.ResourceUpdateDto
+@{
+    ViewData["Title"] = "Редактировать ресурс";
+}
+
+<h2>Редактировать единицу измерения</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+
+    <div class="mb-3">
+        <label class="form-label">Наименование</label>
+        <input type="text" class="form-control" name="Name" value="@Model.Name" required />
+    </div>
+
+    <div class="mb-3">
+        <button type="submit" class="btn btn-success">Сохранить</button>
+        <button formaction="@Url.Action("Archive", "Resource", new { id = Model.Id })" formmethod="post" class="btn btn-warning">В архив</button>
+        <button formaction="@Url.Action("Delete", "Resource", new { id = Model.Id })" formmethod="post" class="btn btn-danger" onclick="return confirm('Вы точно хотите удалить?');">Удалить</button>
+    </div>
+</form>

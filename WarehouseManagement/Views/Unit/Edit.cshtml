@@ -1,0 +1,25 @@
+﻿@model WarehouseManagement.Models.DTOs.UnitUpdateDto
+@{
+    ViewData["Title"] = "Редактировать единицу измерения";
+    var id = ViewBag.UnitId;
+}
+
+<h2>Редактировать единицу измерения</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <input type="text" class="form-control" asp-for="Name" required />
+    <button type="submit" class="btn btn-success">Сохранить</button>
+    <button formaction="@Url.Action("Archive", "Unit", new { id = Model.Id })" formmethod="post" class="btn btn-warning">В архив</button>
+    <button formaction="@Url.Action("Delete", "Unit", new { id = Model.Id })" formmethod="post" class="btn btn-danger" onclick="return confirm('Вы точно хотите удалить?');">Удалить</button>
+</form>
+
